@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/your-repo.git'
+                git branch: 'master', url: 'https://github.com/dharma-git-99/demo-repo.git'
             }
         }
         stage('Copy Files') {
